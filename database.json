@@ -1,0 +1,340 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "bobbydan",
+      "password": "1111"
+    },
+    {
+      "username": "holden",
+      "password": "parker",
+      "id": 2
+    },
+    {
+      "username": "morgan",
+      "password": "laizure",
+      "id": 3
+    },
+    {
+      "username": "billy",
+      "password": "bob",
+      "id": 4
+    },
+    {
+      "username": "hannah",
+      "password": "banana",
+      "id": 5
+    },
+    {
+      "username": "tif",
+      "password": "taf",
+      "id": 6
+    },
+    {
+      "username": "tom",
+      "password": "21",
+      "id": 7
+    }
+  ],
+  "foods": [
+    {
+      "name": "celery",
+      "quantity": 1,
+      "quantityTypeId": 1,
+      "foodTypeId": 2,
+      "calories": 1,
+      "protein": 1,
+      "fat": 1,
+      "carbohydrate": 1,
+      "sugar": 1,
+      "id": 1
+    },
+    {
+      "name": "cake",
+      "quantity": 1,
+      "quantityTypeId": 13,
+      "foodTypeId": 7,
+      "calories": 600,
+      "protein": 0,
+      "fat": 80,
+      "carbohydrate": 80,
+      "sugar": 80,
+      "id": 2
+    },
+    {
+      "name": "banana",
+      "quantity": 1,
+      "quantityTypeId": 4,
+      "foodTypeId": 1,
+      "calories": 1,
+      "protein": 1,
+      "fat": 1,
+      "carbohydrate": 1,
+      "sugar": 1,
+      "id": 3
+    },
+    {
+      "name": "cheese",
+      "quantity": 1,
+      "quantityTypeId": 13,
+      "foodTypeId": 5,
+      "calories": 2,
+      "protein": 2,
+      "fat": 2,
+      "carbohydrate": 2,
+      "sugar": 2,
+      "id": 5
+    },
+    {
+      "name": "carrot",
+      "quantity": 1,
+      "quantityTypeId": 4,
+      "foodTypeId": 2,
+      "calories": 1,
+      "protein": 1,
+      "fat": 1,
+      "carbohydrate": 1,
+      "sugar": 1,
+      "id": 6
+    },
+    {
+      "name": "lettuce",
+      "quantity": 1,
+      "quantityTypeId": 1,
+      "foodTypeId": 2,
+      "calories": 1,
+      "protein": 1,
+      "fat": 1,
+      "carbohydrate": 1,
+      "sugar": 1,
+      "id": 7
+    },
+    {
+      "name": "ham",
+      "quantity": 1,
+      "quantityTypeId": 10,
+      "foodTypeId": 3,
+      "calories": 10,
+      "protein": 10,
+      "fat": 10,
+      "carbohydrate": 10,
+      "sugar": 10,
+      "id": 8
+    },
+    {
+      "name": "pasta",
+      "quantity": 1,
+      "quantityTypeId": 1,
+      "foodTypeId": 4,
+      "calories": 12,
+      "protein": 12,
+      "fat": 12,
+      "carbohydrate": 12,
+      "sugar": 12,
+      "id": 9
+    },
+    {
+      "name": "steak",
+      "quantity": 8,
+      "quantityTypeId": 11,
+      "foodTypeId": 3,
+      "calories": 1,
+      "protein": 1,
+      "fat": 1,
+      "carbohydrate": 1,
+      "sugar": 1,
+      "id": 10
+    }
+  ],
+  "userFoods": [
+    {
+      "userId": 1,
+      "foodId": 5,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "foodId": 6,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "foodId": 7,
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "foodId": 8,
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "foodId": 9,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "foodId": 10,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "foodId": 3,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "foodId": 1,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "foodId": 2,
+      "id": 10
+    }
+  ],
+  "foodTypes": [
+    {
+      "id": 1,
+      "name": "fruits"
+    },
+    {
+      "id": 2,
+      "name": "veggies"
+    },
+    {
+      "id": 3,
+      "name": "animal"
+    },
+    {
+      "id": 4,
+      "name": "complex-carbs"
+    },
+    {
+      "id": 5,
+      "name": "dairy"
+    },
+    {
+      "id": 6,
+      "name": "beverages"
+    },
+    {
+      "id": 7,
+      "name": "refined"
+    }
+  ],
+  "quantityTypes": [
+    {
+      "id": 1,
+      "type": "cup"
+    },
+    {
+      "id": 2,
+      "type": "tablespoon"
+    },
+    {
+      "id": 3,
+      "type": "teaspoon"
+    },
+    {
+      "id": 4,
+      "type": "whole"
+    },
+    {
+      "id": 5,
+      "type": "half"
+    },
+    {
+      "id": 6,
+      "type": "quarter"
+    },
+    {
+      "id": 7,
+      "type": "small"
+    },
+    {
+      "id": 8,
+      "type": "medium"
+    },
+    {
+      "id": 9,
+      "type": "large"
+    },
+    {
+      "id": 10,
+      "type": "pound"
+    },
+    {
+      "id": 11,
+      "type": "ounce"
+    },
+    {
+      "id": 12,
+      "type": "serving"
+    },
+    {
+      "id": 13,
+      "type": "slice"
+    }
+  ],
+  "meals": [],
+  "mealFoods": [],
+  "mealTypes": [
+    {
+      "id": 1,
+      "type": "Breakfast"
+    },
+    {
+      "id": 2,
+      "type": "Not-Breakfast"
+    },
+    {
+      "id": 3,
+      "type": "Desert"
+    }
+  ],
+  "diets": [
+    {
+      "id": 1,
+      "name": "Vegan"
+    },
+    {
+      "id": 2,
+      "name": "Vegetarian"
+    },
+    {
+      "id": 3,
+      "name": "Gluten-free"
+    },
+    {
+      "id": 4,
+      "name": "Low-fat"
+    },
+    {
+      "id": 5,
+      "name": "Keto"
+    },
+    {
+      "id": 6,
+      "name": "Low-sugar"
+    },
+    {
+      "id": 7,
+      "name": "Fat-free"
+    },
+    {
+      "id": 8,
+      "name": "Sugar-free"
+    },
+    {
+      "id": 9,
+      "name": "Zero-carb"
+    },
+    {
+      "id": 10,
+      "name": "Carnivore"
+    }
+  ],
+  "mealDiets": [],
+  "userMeals": []
+}
