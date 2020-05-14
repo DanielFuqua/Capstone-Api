@@ -34,6 +34,11 @@
       "username": "tom",
       "password": "21",
       "id": 7
+    },
+    {
+      "username": "jenna",
+      "password": "nenna",
+      "id": 8
     }
   ],
   "foods": [
@@ -144,6 +149,42 @@
       "carbohydrate": 1,
       "sugar": 1,
       "id": 10
+    },
+    {
+      "name": "hamburger patty",
+      "quantity": 1,
+      "quantityTypeId": 4,
+      "foodTypeId": 3,
+      "calories": 30,
+      "protein": 30,
+      "fat": 30,
+      "carbohydrate": 30,
+      "sugar": 30,
+      "id": 12
+    },
+    {
+      "name": "ground turkey",
+      "quantity": 1,
+      "quantityTypeId": 10,
+      "foodTypeId": 3,
+      "calories": 1,
+      "protein": 1,
+      "fat": 1,
+      "carbohydrate": 1,
+      "sugar": 1,
+      "id": 13
+    },
+    {
+      "name": "popcorn",
+      "quantity": 1,
+      "quantityTypeId": 1,
+      "foodTypeId": 4,
+      "calories": 1,
+      "protein": 1,
+      "fat": 1,
+      "carbohydrate": 1,
+      "sugar": 1,
+      "id": 14
     }
   ],
   "userFoods": [
@@ -191,6 +232,21 @@
       "userId": 1,
       "foodId": 2,
       "id": 10
+    },
+    {
+      "userId": 1,
+      "foodId": 12,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "foodId": 13,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "foodId": 14,
+      "id": 14
     }
   ],
   "foodTypes": [
@@ -277,8 +333,154 @@
       "type": "slice"
     }
   ],
-  "meals": [],
-  "mealFoods": [],
+  "meals": [
+    {
+      "name": "bens favorite",
+      "dietId": 1,
+      "MealTypeId": 1,
+      "calories": 101,
+      "protein": 101,
+      "fat": 101,
+      "carbohydrate": 101,
+      "sugar": 101,
+      "description": "this is all wrong",
+      "id": 2
+    },
+    {
+      "name": "Test Meal",
+      "dietId": 3,
+      "MealTypeId": 1,
+      "calories": 169,
+      "protein": 169,
+      "fat": 169,
+      "carbohydrate": 169,
+      "sugar": 169,
+      "description": "This is a test",
+      "id": 4
+    },
+    {
+      "name": "Holdens Meal",
+      "dietId": 2,
+      "MealTypeId": 2,
+      "calories": 10,
+      "protein": 10,
+      "fat": 10,
+      "carbohydrate": 10,
+      "sugar": 10,
+      "description": "This is holdens",
+      "id": 5
+    },
+    {
+      "name": "Sean's Favorite",
+      "dietId": 10,
+      "MealTypeId": 2,
+      "calories": 38,
+      "protein": 38,
+      "fat": 38,
+      "carbohydrate": 38,
+      "sugar": 38,
+      "description": "Straight carnyyyyyy",
+      "id": 6
+    },
+    {
+      "name": "Banana Burger",
+      "dietId": 5,
+      "MealTypeId": 2,
+      "calories": 31,
+      "protein": 31,
+      "fat": 31,
+      "carbohydrate": 31,
+      "sugar": 31,
+      "description": "Its a banana burger!",
+      "id": 7
+    }
+  ],
+  "mealFoods": [
+    {
+      "foodId": 10,
+      "mealId": 2,
+      "quantity": 100,
+      "id": 2
+    },
+    {
+      "foodId": 1,
+      "mealId": 2,
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "foodId": 3,
+      "mealId": 4,
+      "quantity": 5,
+      "id": 6
+    },
+    {
+      "foodId": 10,
+      "mealId": 4,
+      "quantity": 12,
+      "id": 7
+    },
+    {
+      "foodId": 7,
+      "mealId": 4,
+      "quantity": 2,
+      "id": 8
+    },
+    {
+      "foodId": 12,
+      "mealId": 4,
+      "quantity": 5,
+      "id": 9
+    },
+    {
+      "foodId": 5,
+      "mealId": 5,
+      "quantity": 2,
+      "id": 10
+    },
+    {
+      "foodId": 6,
+      "mealId": 5,
+      "quantity": 3,
+      "id": 11
+    },
+    {
+      "foodId": 7,
+      "mealId": 5,
+      "quantity": 3,
+      "id": 12
+    },
+    {
+      "foodId": 10,
+      "mealId": 6,
+      "quantity": 4,
+      "id": 13
+    },
+    {
+      "foodId": 12,
+      "mealId": 6,
+      "quantity": 1,
+      "id": 14
+    },
+    {
+      "foodId": 13,
+      "mealId": 6,
+      "quantity": 4,
+      "id": 15
+    },
+    {
+      "foodId": 3,
+      "mealId": 7,
+      "quantity": 1,
+      "id": 16
+    },
+    {
+      "foodId": 12,
+      "mealId": 7,
+      "quantity": 1,
+      "id": 17
+    }
+  ],
   "mealTypes": [
     {
       "id": 1,
@@ -286,11 +488,15 @@
     },
     {
       "id": 2,
-      "type": "Not-Breakfast"
+      "type": "Lunch/Dinner"
     },
     {
       "id": 3,
       "type": "Desert"
+    },
+    {
+      "id": 4,
+      "type": "Smoothie"
     }
   ],
   "diets": [
@@ -336,5 +542,31 @@
     }
   ],
   "mealDiets": [],
-  "userMeals": []
+  "userMeals": [
+    {
+      "userId": 1,
+      "mealId": 2,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "mealId": 4,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "mealId": 5,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "mealId": 6,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "mealId": 7,
+      "id": 7
+    }
+  ]
 }
